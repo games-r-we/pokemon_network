@@ -10,11 +10,13 @@ public class Game {
 
 	public static void main(String [] args) throws IOException {
 		JFrame frame = new JFrame();
-		Map map = new Map("test.map");
+		Map map = new Map("new_home.map");
 		frame.setTitle("Pokemon World");
 		frame.add(map); 
 		frame.setSize(800,800);
 		frame.setResizable(false);
-		frame.setVisible(true); 
+		frame.setVisible(true);
 	}
-}`
+
+
+}
